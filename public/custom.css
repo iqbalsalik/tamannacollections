@@ -1,0 +1,14 @@
+.w-95vw{
+    width: 95vw;
+}
+.height{
+    height: 27rem;
+}
+
+.sticky-nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1; 
+  }
+  
