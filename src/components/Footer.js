@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -22,17 +23,17 @@ const Footer = () => {
 
             <div className="firstCol sm:w-1/4 md:w-1/4 size-ful px-14 py-4 mx-4">
                 <h2 className='mb-3 font-bold text-lg'>Quick Links</h2>
-                <p>Home</p>
-                <p>About Us</p>
-                <p>Contact Us</p>
+                <p><Link to={'/'}>Home</Link></p>
+                <p><Link to={'/contact'}>Contact Us</Link></p>
             </div>
 
             <div className="firstCol sm:w-1/4 md:w-1/4 size-ful px-14 py-4 mx-4">
                 <h2 className='mb-3 font-bold text-lg'>Get In Touch</h2>
                 <h3 className='font-bold'>Tamanna Collection</h3>
-                <p><FontAwesomeIcon icon={faLocationDot} /> Mansarovar, Jaipur, Rajasthan, 200345</p>
+                <a href="https://maps.app.goo.gl/UMDxnJEJt621Lm2T6" target={'_blank'}><p><FontAwesomeIcon icon={faLocationDot} /> 30/05/04 Madhyam Marg, Swarn Path, Mansarovar, Jaipur</p></a>
                 <a href="mailto:test@example.com"><FontAwesomeIcon icon={faEnvelope} /> test@example.com</a><br />
-                <a href="tel:+1234567890"><FontAwesomeIcon icon={faPhoneVolume} /> 123-456-7890</a>
+                <a href="tel:9982823786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9982823786</a><br />
+                <a href="tel:9521150786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9521150786</a>
             </div>
             
         </div>
