@@ -32,8 +32,7 @@ const Footer = () => {
                 <h3 className='font-bold'>Tamanna Collection</h3>
                 <a href="https://maps.app.goo.gl/UMDxnJEJt621Lm2T6" target={'_blank'}><p><FontAwesomeIcon icon={faLocationDot} /> 30/05/04 Madhyam Marg, Swarn Path, Mansarovar, Jaipur</p></a>
                 <a href="mailto:test@example.com"><FontAwesomeIcon icon={faEnvelope} /> test@example.com</a><br />
-                <a href="tel:9982823786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9982823786</a><br />
-                <a href="tel:9521150786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9521150786</a>
+                <a href="tel:9982823786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9982823786</a>
             </div>
             
         </div>

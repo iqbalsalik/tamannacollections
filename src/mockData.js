@@ -103,4 +103,30 @@ export const shopData = [
         id:11,
         img: ['img11.1']
     },
+    {
+        name:'Roman Silk Hand Adda',
+        description: 'Heavy Work Banarshi Dupptta',
+        fabric:'Roman Silk',
+        Dupatta:'Banarshi',
+        size:[],
+        brand:'',
+        tag:"",
+        price: 2695,
+        id:12,
+        img: ['img12.1','img12.2','img12.3','img12.4'],
+        category: "New Arrivals"
+    },
+    {
+        name:'Roman Silk Hand Adda',
+        description: 'Heavy Work Banarshi Dupptta',
+        fabric:'Roman Silk',
+        Dupatta:'Banarshi',
+        size:[],
+        brand:'',
+        tag:"",
+        price: 2695,
+        id:13,
+        img: ['img13.1','img13.2','img13.3','img13.4'],
+        category: 'New Arrivals'
+    },
 ]
