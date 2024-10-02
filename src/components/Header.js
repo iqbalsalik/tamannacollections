@@ -70,11 +70,11 @@ const Header = () => {
                 zIndex: 1000 // Ensure the dropdown appears above other elements
             }}>
               <Link to={'newArrival'}> 
-                <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover'>New Arrivals</li>
+                <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover' onClick={handleCategoryDropDown}>New Arrivals</li>
               </Link>
-              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover'>Best Sellers</li>
-              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover'>Summer Collections</li>
-              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover'>Wedding Collections</li>
+              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover' onClick={handleCategoryDropDown}>Best Sellers</li>
+              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover' onClick={handleCategoryDropDown}>Summer Collections</li>
+              <li className='p-4 w-full text-start font-bold bg-slate-200 text-md hover' onClick={handleCategoryDropDown}>Wedding Collections</li>
             </ul>
             </div>
             

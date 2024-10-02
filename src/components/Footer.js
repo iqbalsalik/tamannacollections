@@ -31,7 +31,7 @@ const Footer = () => {
                 <h2 className='mb-3 font-bold text-lg'>Get In Touch</h2>
                 <h3 className='font-bold'>Tamanna Collection</h3>
                 <a href="https://maps.app.goo.gl/UMDxnJEJt621Lm2T6" target={'_blank'}><p><FontAwesomeIcon icon={faLocationDot} /> 30/05/04 Madhyam Marg, Swarn Path, Mansarovar, Jaipur</p></a>
-                <a href="mailto:test@example.com"><FontAwesomeIcon icon={faEnvelope} /> test@example.com</a><br />
+                <a href="mailto:tamannacollections725@gmail.com"><FontAwesomeIcon icon={faEnvelope} />tamannacollections725@gmail.com</a><br />
                 <a href="tel:9982823786"><FontAwesomeIcon icon={faPhoneVolume} />+91 9982823786</a>
             </div>
             

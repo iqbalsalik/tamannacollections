@@ -50,7 +50,7 @@ const Body = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
@@ -78,30 +78,30 @@ const Body = () => {
       </select> 
     </div>
   
-      <Slider {...settings} className='sm:mx-40 md:mx-40 my-20  sm:w-auto md:w-auto m-auto w-7/12 justify-between flex items-center '>
+      <Slider {...settings} className='sm:mx-40 md:mx-40 my-10  sm:w-auto md:w-auto m-auto w-11/12 justify-between flex items-center '>
         <div className='text-center text-slate-400 w-52  p-1 m-2 leading-9'>
-          <div className="newArrival w-52 min-w-52 max-w-52">
+          <div className="newArrival sm:w-52 sm:min-w-52 sm:max-w-52 md:w-52 w-36">
           <Link to={'/newArrival'}> <img src="/assets/img12.1.jpg" className=' w-full rounded-[350px]' alt="" /></Link>
           <h3 className='text-center font-bold'>New Arrival</h3>
          </div>
         </div>
 
         <div className='text-center text-slate-400 w-52  p-1 m-2 leading-9'>
-          <div className="bestSeller w-52 min-w-52 max-w-52">
+          <div className="bestSeller sm:w-52 sm:min-w-52 sm:max-w-52 md:w-52 w-36">
           <img src="/assets/img9.1.jpg" className=' w-full rounded-[250px]' alt="" />
           <h3 className='text-center font-bold'>Best Seller</h3>
           </div>
         </div>
 
         <div className='text-center text-slate-400 w-52  p-1 m-2 leading-9'>
-          <div className="summerCollections w-52 min-w-52 max-w-52"> 
+          <div className="summerCollections sm:w-52 sm:min-w-52 sm:max-w-52 md:w-52 w-36"> 
           <img src="/assets/img5.1.jpg" className=' w-full rounded-[250px]' alt="" />
           <h3 className='text-center font-bold'>Summer Collections</h3>
           </div>
         </div>
 
         <div className='text-center text-slate-400 w-52  p-1 m-2 leading-9'>
-          <div className="weddingCollections w-52 min-w-52 max-w-52">
+          <div className="weddingCollections sm:w-52 sm:min-w-52 sm:max-w-52 md:w-52 w-36">
           <img src="/assets/img3.1.jpg" className=' w-full rounded-[250px]' alt="" />
           <h3 className='text-center font-bold'>Wedding Collections</h3>
           </div>
