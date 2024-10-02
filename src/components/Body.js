@@ -60,7 +60,7 @@ const Body = () => {
   return (
     <div className='flex flex-col'>
     <div>
-    <select className='p-3 sm:text-start md:text-start text-center mx-auto my-10 border border-slate-400 rounded-lg sm:w-96 md:w-96 w-9/12 size-full sm:float-left md:float-left  block'
+    <select className='p-3  text-center mx-auto sm:mx-[37%] md:mx-[37%] my-10 border border-slate-400 rounded-lg sm:w-96 md:w-96 w-9/12 size-full sm:float-left md:float-left  block'
     onChange={(e) => handleSizeChange(e.target.value)}
     >
     <option value="select your size" className='block'>Select Your Size</option>
